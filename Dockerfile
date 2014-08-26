@@ -1,4 +1,4 @@
-FROM node
+FROM google/nodejs
 
 RUN apt-get install -y curl git gcc make build-essential imagemagick
 RUN curl https://install.meteor.com | /bin/sh
